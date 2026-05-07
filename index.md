@@ -13,5 +13,5 @@ Map any decision-making context, including OpenTelemetry agent traces, into
   |---|---|---|
   | **[decision-graph](https://github.com/decision-graph/decision-graph)** [![PyPI](https://img.shields.io/pypi/v/decision-graph?include_prereleases&label=PyPI)](https://pypi.org/project/decision-graph/) | alpha — `dg/v1` | The schema — `spec.json`, design rationale, reference Python package with bundled spec and instance validator. |                                                                    
   | **[otela](https://github.com/decision-graph/otela)** [![PyPI](https://img.shields.io/pypi/v/otela?label=PyPI)](https://pypi.org/project/otela/) | shipped — `at/v2` | OpenTelemetry agent-trace ingestion. Normalizes OTLP/JSON to Arrow / Parquet today; the `dg/v1` generator is the next addition. |
-  | **otel-to-neo4j (https://github.com/decision-graph/otel-to-neo4j)** | Working Batch Agent Trace Ingestion | Neo4j-specific loader for OTel agent traces. Built on otela; loads at/v2 tables into a Neo4j graph. |
+  | **[otel-to-neo4j](https://github.com/decision-graph/otel-to-neo4j)** | Working Batch Agent Trace Ingestion | Neo4j-specific loader for OTel agent traces. Built on otela; loads at/v2 tables into a Neo4j graph. |
                                                             
